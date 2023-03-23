@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+gif_meme_marketplace = "BjEvTzneKzB7KQyMPhZck95sEb5PTZnEEYpyAZdJ68r7"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "/Users/tranminhquang/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gifmeme.js"
